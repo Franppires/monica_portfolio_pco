@@ -1,0 +1,248 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+:root {
+    --dark-blue: #1D3557; 
+    --medium-blue:#0079BF;
+    --ligth-blue: #EEF9FF;
+    --ice: #F9FFFF;
+    --red: #D52550;
+    --dark-red: #6A1328;
+    --grey-blue: #B5BDC8;
+    --black-blue: #0A121D;
+    --grey: rgba(0, 0, 0, 0.5);
+}
+
+.header {     
+    width: 100%;
+    height: 60px;
+    background-color: var(--dark-blue);
+    padding-bottom: 5px var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    gap: 40px;
+    font-size: 24px;
+    list-style: none;   
+    position: fixed;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--ice);
+}
+
+
+ul {
+    border-bottom: var(--red) 5px solid;
+}
+
+main { 
+    background-color: var(--ligth-blue);
+}
+
+.cover { 
+    width: 100%;
+    height: 342px;
+    object-fit: cover;
+    margin-top: 136px;
+}
+
+.presentation h1 {
+    color: var(--black-blue);
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 64px;
+    margin-bottom: 40px;
+}
+
+.presentation h2 {
+    color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.title {
+    color: var(--medium-blue);
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 36px;
+    margin-bottom: 56px;
+    margin-top: 120px;
+}
+
+.project {
+    display: flex;
+    width: 90%;
+    background-color: var(--ice); 
+    margin: 48px 68px;
+}
+
+.project-photo {
+    width: 415px;
+    height: 486px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    justify-content: center;
+    margin-left: 40px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.content, h3 {
+    font-family: 'Lora', serif;
+    font-size: 28px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--red);
+    color: var(--ice);
+    cursor: pointer;
+}
+
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    color: var(--medium-blue);
+    margin-top: 112px;
+    width: 100%;
+    background-color: var(--ice); 
+    font-size: 32px;
+    padding-top: 14px;
+}
+
+.monica-photo {
+    width: 420px;
+    height: 496px;
+}
+
+.content-about {
+    display: flex;
+    background-color: var(--ice);
+    align-items: center;
+    padding: 72px 181.5px;
+    gap: 20px;
+}
+
+.content-about, p {
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+#contact { 
+    color: var(--medium-blue);
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin: 76px 0 64px 0;
+    font-size: 32px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 208px;
+    padding-bottom: 132px;
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+    font-size: 20px;
+    background-color: var(--dark-blue);
+    color: var(--ice);
+    padding-top: 5px var(--red);
+}
+
+.footer a { 
+    text-decoration: none;
+    color: var(--ice);
+}
+
+.modal {
+    position: fixed;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out opacity 2.25s ease-in-out; 
+}
+
+.modal-content {
+    background-color: var(--ice);
+    padding: 16px 24px;
+    width: 844px;
+    height: 365px;
+    border-radius: 8px;
+}
+
+.close { 
+    float: right;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-color: var(--ligth-blue);
+    text-align: center;
+    line-height: 32px;
+    font-size: 38px;
+    border-radius: 50px;
+}
+
+
+.showModal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
+.e-mail { 
+    width: 400px;
+    border: none;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 107px;
+    color: var(--black-blue);
+    background-color: var(--ice);
+}
+
+.copy { 
+    margin: 34px 300px;
+}
