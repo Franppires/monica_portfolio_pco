@@ -357,6 +357,11 @@ button {
     margin: 120px 30px;
 }
 
+.colorTwo {
+    border: 0.1px solid red;
+    margin: 120px 30px 0;
+}
+
 .list { 
     border: none;
 }
@@ -368,7 +373,7 @@ button {
 
 .generation {
     width: 587px;
-    padding: 120px 30px;
+    padding: 120px 30px 0;
 }
 
 .generation h3 {
@@ -437,6 +442,8 @@ button {
     margin: 120px 80px 0 80px;
 }
 
+
+
 //projeto carfafy 
 .contentCartafy { 
     margin: 0 30px;
@@ -467,7 +474,7 @@ button {
 }
 
 .spacingCartafy h3, h4 {
-    margin: 120px 30px 120px 30px;
+    /* margin: 120px 30px 120px 30px; */
     color: var(--dark-blue);
 }
 
