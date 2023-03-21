@@ -20,6 +20,12 @@ btn.addEventListener('click', (e) => {
     hideModal()
 })
 
+//abrir pagina de projetos 
+function openCorDePapel() { 
+    window.location.href = 'cordepapel.html'
+}
 
-
-//---------------------------------------------
+//abrir pagina de projetos 
+function openCartafy() { 
+    window.location.href = 'cartafy.html'
+}

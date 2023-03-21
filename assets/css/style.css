@@ -17,6 +17,39 @@
     --grey: rgba(0, 0, 0, 0.5);
 }
 
+// tamanho da font desktop
+h1 { 
+    font-size: 64px;
+    font-family: 'Lora', serif;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: 'Lora', serif;
+    color: var(--medium-blue);
+}
+
+h3 {
+    font-size: 32px;
+    font-family: 'Lora', serif;
+}
+
+a, h4 {
+    font-size: 24px;
+    font-family: 'Lora', serif;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+li, p { 
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+
 .header {     
     width: 100%;
     height: 60px;
@@ -27,9 +60,9 @@
     justify-content: center;
     padding: 28px;
     gap: 40px;
-    font-size: 24px;
     list-style: none;   
     position: fixed;
+    top: 0;
 }
 
 nav ul li a {
@@ -58,26 +91,23 @@ main {
     color: var(--black-blue);
     display: flex;
     justify-content: center;
-    font-size: 60px;
     margin-top: 64px;
     margin-bottom: 40px;
+    font-size: 64px;
 }
 
 .presentation h2 {
     color: var(--dark-blue);
     display: flex;
     justify-content: center;
-    font-size: 36px;
 }
 
 .title {
-    color: var(--medium-blue);
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    font-size: 36px;
     margin-bottom: 56px;
-    margin-top: 120px;
+    padding-top: 120px;
 }
 
 .project {
@@ -99,12 +129,10 @@ main {
     justify-content: center;
     margin-left: 40px;
     font-family: 'Merriweather', serif;
-    font-size: 20px;
 }
 
 .content, h3 {
     font-family: 'Lora', serif;
-    font-size: 28px;
 }
 
 button {
@@ -127,12 +155,8 @@ button {
     justify-content: center;
     align-items: center;
     text-decoration: underline;
-    color: var(--medium-blue);
-    margin-top: 112px;
+    padding-top: 112px;
     width: 100%;
-    background-color: var(--ice); 
-    font-size: 32px;
-    padding-top: 14px;
 }
 
 .monica-photo {
@@ -142,25 +166,22 @@ button {
 
 .content-about {
     display: flex;
-    background-color: var(--ice);
+    background-color: var(--ice); 
     align-items: center;
-    padding: 72px 181.5px;
     gap: 20px;
+    margin: 72px 72px 0; 
 }
 
 .content-about, p {
     padding-bottom: 20px;
-    font-family: 'Merriweather', serif;
-    font-size: 20px;
+
 }
 
 #contact { 
-    color: var(--medium-blue);
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    margin: 76px 0 64px 0;
-    font-size: 32px;
+    padding-top: 120px;
 }
 
 .logo {
@@ -169,6 +190,8 @@ button {
     gap: 208px;
     padding-bottom: 132px;
     list-style: none;
+    margin-top: 64px;
+    padding-bottom: 30%
 }
 
 .footer {
@@ -178,10 +201,9 @@ button {
     width: 100%;
     height: 60px;
     padding-top: 20px;
-    font-size: 20px;
     background-color: var(--dark-blue);
     color: var(--ice);
-    padding-top: 5px var(--red);
+    border-top: 5px var(--red);
 }
 
 .footer a { 
@@ -246,3 +268,253 @@ button {
 .copy { 
     margin: 34px 300px;
 }
+
+
+//pagina cor de papel
+
+.contentCorDePapel { 
+    margin: 0 64px;
+}
+
+.coverProject { 
+    width: 100%;
+    height: 369px;
+    padding: 136px 120px 0 120px;
+}
+
+.titleProject {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 88px;
+}
+
+.summary {
+    display: flex;
+    gap: 110px;
+    margin: 120px 30px 0;
+}
+
+.summary img {
+    width: 580px;
+}
+
+.summary h3 {
+    color: var(--dark-blue);
+    margin-bottom: 42px;
+}
+
+.summary p { 
+    color: var(--black-blue)
+}
+
+.summary h4 {
+    color: var(--dark-blue);
+    margin-bottom: 42px;
+}
+
+.summary h5 span {
+    color: var(--medium-blue);
+}
+
+.summary ul {
+    margin-left: 22px;
+}
+
+.challenge {
+    display: flex;
+    gap: 130px;
+    margin: 120px 30px 0;
+}
+
+.challenge div {
+    width: 587px;
+}
+
+.challenge div div {
+    gap: 70px;
+}
+
+.challenge h3 {
+    color: var(--dark-blue);
+    margin-bottom: 42px;
+}
+
+.challenge h4 span {
+    color: var(--medium-blue);
+}
+
+.challenge p { 
+    color: var(--black-blue)
+}
+
+.spacing {
+    margin-top: 70px
+}
+
+.color {
+    border: 0.1px solid red;
+    margin: 120px 30px;
+}
+
+.list { 
+    border: none;
+}
+
+.map {
+    width: 95%;
+    margin: 120px 30px 30px;
+}
+
+.generation {
+    width: 587px;
+    padding: 120px 30px;
+}
+
+.generation h3 {
+    color: var(--dark-blue);
+    margin-bottom: 24px;
+}
+
+.generation h4 {
+    color: var(--dark-blue);
+    margin-bottom: 24px;
+}
+
+.generationImage {
+    width: 961px;
+    height: 406px;
+    margin: 120px 150px 0 150px ;
+}
+
+
+.groupIdeation {
+    width: 1146px;
+    height: 416px;
+    margin: 120px 75px;
+}
+
+.ideation {
+    width: 969px;
+    height: 727px;
+    margin: 0 150px 0 150px
+}
+
+.prototyping {
+    width: 970px;
+    height: 502px;
+    margin: 120px 150px 120px 150px ;
+}
+
+.wireframe {
+    width: 969px;
+    height: 726px;
+    margin: 120px 150px 0 150px ;
+}
+
+.flow {
+    width: 969px;
+    height: 1353px;
+    margin: 120px 150px 0 150px ;
+}
+
+.colorsComponent {
+    width: 1144px;
+    height: 616px;
+    margin: 120px 80px 0 80px ;
+}
+
+.typographyComponent {
+    width: 1144px;
+    height: 1487px;
+    margin: 120px 80px 0 80px;
+}
+
+
+.component {
+    width: 1144px;
+    height: 1429px;
+    margin: 120px 80px 0 80px;
+}
+
+//projeto carfafy 
+.contentCartafy { 
+    margin: 0 30px;
+}
+
+.contentCartafy img {
+    width: 95%;
+    margin: 0px 30px 0 30px ;
+}
+
+.summaryCartafy {
+    display: flex;
+    gap: 100px;
+    margin: 120px 30px 0;
+}
+
+.summaryCartafy div {
+    width: 587px;
+}
+
+.summaryCartafy h3 {
+    color: var(--dark-blue);
+    margin-bottom: 24px
+}
+
+.summaryCartafy p {
+    margin-bottom: 88px
+}
+
+.spacingCartafy h3, h4 {
+    margin: 120px 30px 120px 30px;
+    color: var(--dark-blue);
+}
+
+.coverCartafy { 
+    width: 100%;
+    height: 369px;
+    padding: 136px 90px 0 90px;
+
+}
+
+
+// tamanho da font mobile
+@media (max-width: 768px) { 
+    h1 { 
+        font-size: 64px;
+        font-family: 'Lora', serif;
+    }
+    
+    h2 {
+        font-size: 32px;
+        font-family: 'Lora', serif;
+    }
+    
+    h3 {
+        font-size: 24px;
+        font-family: 'Lora', serif;
+    }
+    
+    a, h4 {
+        font-size: 20px;
+        font-family: 'Lora', serif;
+    }
+    
+    h5 {
+        font-size: 16px;
+        font-family: 'Lora', serif;
+    } 
+
+    p { 
+        font-size: 16px;
+        font-family: 'Merriweather', serif;
+    }
+
+
+
+    .project {
+        flex-direction: column;
+    }
+}
+
