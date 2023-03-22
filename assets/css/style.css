@@ -286,7 +286,7 @@ button {
 
 .coverProject { 
     width: 100%;
-    height: 369px;
+    /* height: 369px; */
     padding: 136px 120px 0 120px;
 }
 
@@ -429,6 +429,13 @@ button {
     width: 969px;
     height: 1353px;
     margin: 120px 150px 0 150px ;
+}
+
+iframe { 
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: 450px;
+    margin: 120px 274px 0;
 }
 
 .colorsComponent {
@@ -661,5 +668,142 @@ button {
         margin: 0 50px 0;
     }
 
+
+    //pagina de cor de papel 
+
+    .contentCorDePapel { 
+        margin: 0;
+    }
+
+    .coverProject { 
+        padding: 104px 20px 0 20px;
+    }
+
+    .titleProject {
+        margin-top: 40px;
+    }
+
+    .summary {
+        flex-direction: column;
+        gap: 30px;
+        margin: 42px 16px 0; 
+    }
+
+    .summary img {
+        width: 328px;
+    }
+
+    .challenge {
+        flex-direction: column;
+        gap: 30px;
+        margin: 42px 16px 0;
+    }
+
+    .challenge div {
+        width: 328px;
+    }
+
+    .challenge div div {
+        gap: 0;
+    }
+
+    .challenge h3 {
+        margin-bottom: 30px;
+    }
+
+    .spacing {
+        margin-top: 30px
+    }
+
+    .color {
+        margin: 40px 16px;
+    }
+
+    .map {
+        width: 90%;
+        margin: 40px 16px 0;
+    }
+
+    .phone { 
+        width: 248px;
+    }
+
+    .generation {
+        width: 328px;
+        padding: 40px 16px 0;
+    }
+
+    .generation h3 {
+        margin-bottom: 40px;
+    }
+    
+    .generation h4 {
+        margin-bottom: 40px;
+    }
+    
+    .generationImage {
+        width: 328px;
+        height: 139px;
+        margin: 40px 0 0;
+    }
+
+    .groupIdeation {
+        width: 328px;
+        height: 119px;
+        margin: 40px 0px;
+    }
+
+    .ideation {
+        width: 328px;
+        height: 246px;
+        margin: 0px 0px;
+    }
+
+    .prototyping {
+        width: 328px;
+        height: 170px;
+        margin: 40px 0 ;
+    }
+
+    .wireframe {
+        width: 328px;
+        height: 246px;
+        margin: 40px 0 0;
+    }
+
+    .flow {
+        width: 328px;
+        height: 456px;
+        margin: 40px 0 0;
+    }
+
+    iframe { 
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        width: 328px;
+        height: 297px;
+        margin: 40px 0 ;
+    }
+
+    .colorsComponent {
+        width: 328px;
+        height: 177px;
+        margin: 40px 0 ;
+    }
+
+    .typographyComponent { 
+        width: 328px;
+        height: 427px; 
+        margin: 0 0 40px;
+    }
+
+    .component { 
+        width: 328px;
+        height: 410px; 
+        margin: 0;
+    }
+
+    .colorTwo {
+        margin: 0 16px;
+    }
 }
 
