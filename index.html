@@ -20,6 +20,11 @@
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
+
+
+        
+
+        <hr class="border" /> 
     </header>
 
     <main>
@@ -31,9 +36,10 @@
         <div>
             <h2 class="title" id="projects">Projetos em UX</h2>
             <div class="project">
+                <h3 class="titleMobile">Cor de Papel</h3>
                 <img class="project-photo" src="./assets/img/Cor de Papel.png" alt="foto cor de papel">
                 <div class="content">
-                    <h3>Cor de Papel</h3>
+                    <h3 class="titleDesktop">Cor de Papel</h3>
                     <p>Este projeto teve como objetivo inserir a rede de papelarias Cor de Papel no comércio online (e-commerce), agregando valor ao serviço prestado através da diferenciação do processo de compra pelo aplicativo.</p>  
                     <button onclick="openCorDePapel()">Saiba mais</button>
                 </div>
@@ -42,9 +48,10 @@
         <div>
             <h2 class="title">Projetos em UI</h2>
             <div class="project">
+                <h3 class="titleMobile">Cartafy</h3>
                 <img class="project-photo" src="./assets/img/Cartafy.png" alt="foto cartafy">
                 <div class="content">
-                    <h3>Cartafy</h3>
+                    <h3 class="titleDesktop">Cartafy</h3>
                     <p>Imagine um cenário utópico em que a invenção da carta acabou de acontecer. Cartafy é uma plataforma de envio de cartas onde você consegue se comunicar com seus amigos e familiares  sem precisar ir aos Correios.</p>
                     <button onclick="openCartafy()">Saiba mais</button>
                 </div>
@@ -63,12 +70,14 @@
         </div>
         <div>
             <h2 id="contact">Contatos</h2>
-            <ul class="logo">
-                <li onclick="showModal()"><a href="javascript:void(0)"><img src="./assets/img/E-mail.png" alt="e-mail"></a></li>
-                <li><a href="https://www.linkedin.com/in/monicatmagalhaes/" target="_blank"><img src="./assets/img/Linkedin.png" alt="linkedin"></a></li>
-                <li><a href="https://wa.me/5524999484219" target="_blank"><img src="./assets/img/WhatsApp.png" alt="WhatsApp"></a></li>
-            </ul>
+            <div class="logo">
+                <a onclick="showModal()" href="javascript:void(0)" ><img src="./assets/img/email.png" alt="E-mail"></a>
+                <a href="https://www.linkedin.com/in/monicatmagalhaes/" target="_blank"><img src="./assets/img/Linkedin.png" alt="Linkedin"></a>
+                <a href="https://wa.me/5524999484219" target="_blank"><img src="./assets/img/WhatsApp.png" alt=""></a>
+            </div>
         </div>
+
+        
         <div class="modal" onclick="hideModal()">
             <div class="modal-content">
                 <span class="close" onclick="hideModal()">&times;</span>
@@ -78,7 +87,11 @@
         </div>
     </main>
 
+    
+
+
     <footer>
+        <hr class="border" /> 
         <h5 class="footer" >Mônica Magalhães - UX Designer <span><a href="https://www.linkedin.com/in/franciane-pires/" target="_blank">Franciane Pires - Desenvolvedora</a> </span> <span>© 2023 - Todos os direitos reservados.</span></h5>
         
     </footer>

@@ -71,7 +71,6 @@ nav ul li a {
     color: var(--ice);
 }
 
-
 ul {
     border-bottom: var(--red) 5px solid;
 }
@@ -93,7 +92,6 @@ main {
     justify-content: center;
     margin-top: 64px;
     margin-bottom: 40px;
-    font-size: 64px;
 }
 
 .presentation h2 {
@@ -108,6 +106,10 @@ main {
     text-decoration: underline;
     margin-bottom: 56px;
     padding-top: 120px;
+}
+
+.titleMobile {
+    display: none;
 }
 
 .project {
@@ -185,13 +187,16 @@ button {
 }
 
 .logo {
+
     display: flex;
     justify-content: center;
-    gap: 208px;
-    padding-bottom: 132px;
-    list-style: none;
-    margin-top: 64px;
-    padding-bottom: 30%
+    gap: 206px;
+    margin-top: 64px ;
+    padding-bottom: 30%;
+}
+
+.logo img { 
+    width: 68px;
 }
 
 .footer {
@@ -204,11 +209,14 @@ button {
     background-color: var(--dark-blue);
     color: var(--ice);
     border-top: 5px var(--red);
+    flex-direction: row;
+
 }
 
 .footer a { 
     text-decoration: none;
     color: var(--ice);
+    font-size: 20px;
 }
 
 .modal {
@@ -486,28 +494,35 @@ button {
     width: 100%;
     height: 369px;
     padding: 136px 90px 0 90px;
+}
 
+.border { 
+    border: 3px solid var(--red);
 }
 
 
-// tamanho da font mobile
-@media (max-width: 768px) { 
+@media only screen and (max-width: 600px) {
     h1 { 
-        font-size: 64px;
-        font-family: 'Lora', serif;
-    }
-    
-    h2 {
-        font-size: 32px;
-        font-family: 'Lora', serif;
-    }
-    
-    h3 {
         font-size: 24px;
         font-family: 'Lora', serif;
     }
     
-    a, h4 {
+    h2 {
+        font-size: 20px;
+        font-family: 'Lora', serif;
+    }
+    
+    h3 {
+        font-size: 20px;
+        font-family: 'Lora', serif;
+    }
+    
+    h4 {
+        font-size: 20px;
+        font-family: 'Lora', serif;
+    }
+
+    a {
         font-size: 20px;
         font-family: 'Lora', serif;
     }
@@ -522,10 +537,129 @@ button {
         font-family: 'Merriweather', serif;
     }
 
+    li {
+        display: none;
+    }
+
+
+
+
+
+    
+
+
+
+
+    .cover { 
+        width: 95%;
+        height: 80px;
+        object-fit: cover;
+        margin: 104px 10px 0;
+    }
 
 
     .project {
         flex-direction: column;
+        margin: 0;
+        padding: 16px
     }
+
+    .project {
+        display: flex;
+        width: 100%;
+        background-color: var(--ice); 
+    }
+
+    .titleMobile {
+        display: block;
+        padding: 16px;
+    }
+
+    .titleDesktop {
+        display: none;
+    }
+
+    .title {
+        padding: 50px 0 20px;
+        margin-bottom: 40px;
+    }
+
+    .project-photo {
+        width: 328px;
+        height: 281px;
+    }
+
+    .content {
+        margin: 24px 0;
+        gap: 20px;
+    } 
+
+    button {
+        margin-left: 90px;
+    }
+
+    #about {
+        padding-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .content-about {
+        width: 100%;
+        flex-direction: column;
+        margin: 0; 
+        padding: 24px 16px 40px;
+    }
+
+    .monica-photo {
+        width: 248px;
+        height: 281px;
+    }
+
+    #contact { 
+        padding-top: 40px;
+    }
+
+    .logo {
+        gap: 48px;
+        margin-top: 40px;
+        padding-bottom: 30%;
+    }
+
+    .logo img { 
+        width: 48px;
+    }
+
+
+    .footer {
+        flex-direction: column;
+        height: 80px;
+        padding: 16px ;
+        border-top: 5px var(--red);
+    }
+
+    .footer a {
+        font-size: 16px;   
+    }
+
+    .modal-content {
+        width: 300px;
+        height: 600px;
+    }
+    
+    .e-mail { 
+        margin: 180px 0 60px;
+        font-size: 20px;
+        width: 270px;
+    }
+
+    .close { 
+        margin: 20px 3px 0;
+    }
+
+    .copy { 
+        margin: 0 50px 0;
+    }
+
 }
 
