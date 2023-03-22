@@ -286,7 +286,6 @@ button {
 
 .coverProject { 
     width: 100%;
-    /* height: 369px; */
     padding: 136px 120px 0 120px;
 }
 
@@ -499,7 +498,6 @@ iframe {
 
 .coverCartafy { 
     width: 100%;
-    height: 369px;
     padding: 136px 90px 0 90px;
 }
 
@@ -805,5 +803,70 @@ iframe {
     .colorTwo {
         margin: 0 16px;
     }
+
+
+
+
+    //projeto cartafy
+
+    .contentCartafy { 
+        margin: 0;
+    }
+
+    .contentCartafy img {
+        width: 328px;
+        margin: 40px 16px 0;
+    }
+
+    .coverCartafy { 
+        padding: 50px 20px 0 20px;
+    }
+
+    .summaryCartafy {
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+    }
+
+    .summaryCartafy div {
+        width: 328px;
+
+    }
+
+    .summaryCartafy p {
+        margin-bottom: 40px;
+        margin: 0 16px;
+    }
+    
+    .summaryCartafy h3 {
+        margin: 40px 16px 24px 16px;
+    }
+
+    .titleCartafy {
+        margin: 40px 16px 0;
+    }
+
+    .titleCartafy h3 {
+        margin-bottom: 40px;  
+    } 
+
+
+    .titleCartafy img {
+        margin: 0;  
+    }
+    /* 
+
+
+    
+
+    
+
+    
+}
+    
+    .coverCartafy { 
+        width: 100%;
+        padding: 136px 90px 0 90px;
+    } */
 }
 
