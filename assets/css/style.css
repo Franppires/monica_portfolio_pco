@@ -709,7 +709,7 @@ iframe {
     .logo {
         gap: 48px;
         margin-top: 40px;
-        padding-bottom: 70%;
+        padding-bottom: 100%;
     }
 
     .logo img { 
