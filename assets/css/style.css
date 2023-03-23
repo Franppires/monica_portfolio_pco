@@ -19,7 +19,7 @@
 
 // tamanho da font desktop
 h1 { 
-    font-size: 64px;
+    font-size: 74px;
     font-family: 'Lora', serif;
 }
 
@@ -107,12 +107,7 @@ a {
 .navBar {
     border-bottom: var(--red) 5px solid;
 }
-/* 
 
-    position: fixed;
-    top: 0;
-
- */
 
 main { 
     background-color: var(--ligth-blue);
@@ -131,6 +126,7 @@ main {
     justify-content: center;
     margin-top: 64px;
     margin-bottom: 40px;
+    font-size: 64px;
 }
 
 .presentation h2 {
