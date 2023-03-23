@@ -636,6 +636,9 @@ iframe {
         margin: 104px 10px 0;
     }
 
+    .presentation h1 {
+        font-size: 24px;
+    }
     .project {
         flex-direction: column;
         margin: 0;
