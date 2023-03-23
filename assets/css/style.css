@@ -80,13 +80,6 @@ a {
     width: 100%;
 }   
 
-.navLink { 
-    transition: 0.7s ease;
-}
-
-.navLink:hover { 
-    color: var(--medium-blue)
-}
 
 .hamburger {
     display: none;
