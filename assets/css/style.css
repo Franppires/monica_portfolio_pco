@@ -703,13 +703,14 @@ iframe {
     }
 
     #contact { 
-        padding-top: 40px;
+
+        padding-top: 70px;
     }
 
     .logo {
         gap: 48px;
         margin-top: 40px;
-        padding-bottom: 100%;
+        padding-bottom: 120%;
     }
 
     .logo img { 
